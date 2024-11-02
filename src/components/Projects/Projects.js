@@ -56,7 +56,7 @@ function Projects() {
               isBlog={false}
               title="Medical Protective Equipment Design and Distribution"
               description="Designed, manufactured, and distributed 900+ units of medical PPE including face shields, intubation boxes, and face mask clips to frontline healthcare workers in California, New York, and Washington State. Raised $3,000 on GoFundMe to support production and distribution costs."
-              newsLink="https://news.chapman.edu/2020/04/13/3d-printers-whir-to-life-producing-face-shields-for-medical-workers/"
+              newsLink="https://news.chapman.edu/2020/04/10/cu-students-and-faculty-3d-print-more-than-1000-face-shields-for-healthcare-workers/"
             />
           </Col>
         </Row>

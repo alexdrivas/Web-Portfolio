@@ -8,31 +8,42 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone! I'm <span className="purple">Mattheos Drivas </span>
-            from <span className="purple">New York, New York.</span>
+            Hi Everyone! I'm <span className="purple">Alexandros Drivas</span>, based in <span className="purple">San Francisco, CA</span>.
             <br />
             <br />
-            I'm currently pursuing a <span className="purple">Master of Science in Electrical Engineering and Computer Science</span> at Chapman University, building upon my <span className="purple">Bachelor of Science in Computer Science with a Minor in Spanish</span> from the same institution.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            I’m a medical device engineer with <span className="purple">3+ years</span> of experience designing and scaling FDA-compliant Class II in vitro diagnostic (IVD) devices, focused on improving healthcare outcomes through innovative technology.
           </p>
+
+          <h3 className="about-section-header">Educational Background</h3>
+          <p style={{ textAlign: "justify" }}>
+            I hold a <span className="purple">Master of Science in Biomedical Engineering</span> from Columbia University, where I focused on design, innovation, and product development for healthcare solutions. Prior to that, I earned a <span className="purple">Bachelor of Science in Biochemistry & Molecular Biology</span> from Chapman University.
+          </p>
+
+          <h3 className="about-section-header">Professional Values & Approach</h3>
+          <p style={{ textAlign: "justify" }}>
+            My work emphasizes <span className="purple">transparency, regulatory compliance</span>, and <span className="purple">user-centered design</span>. I focus on ensuring devices are safe, effective, and accessible to enhance patient care.
+          </p>
+
+          <h3 className="about-section-header">Current Focus</h3>
+          <p style={{ textAlign: "justify" }}>
+            Currently, I’m focused on advancing remote patient monitoring and point-of-care solutions to address the evolving needs of healthcare.
+          </p>
+
+          <h3 className="about-section-header">Key Skills and Specialties</h3>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Outdoor spoorts like Skiing and Volleyball
+              <ImPointRight /> Embedded Systems and Firmware Development (Python, C/C++)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Learning Languages
+              <ImPointRight /> Patient Usability and Device Design
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling
+              <ImPointRight /> Regulatory Compliance (ISO 13485, FDA, MDSAP)
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> PCB Design and Prototyping (Fusion 360, AutoCAD)
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-          "Innovation is not just about technology; it's about improving lives and bridging cultural gaps."
-          </p>
-          <footer className="blockquote-footer">Mattheos</footer>
         </blockquote>
       </Card.Body>
     </Card>
@@ -40,3 +51,4 @@ function AboutCard() {
 }
 
 export default AboutCard;
+
